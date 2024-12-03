@@ -46,3 +46,13 @@
 .w5 {
   grid-area: 4/1/5/2;
 }
+@media (max-width: 600px) {
+  .grid-cont {
+    height: 374px;
+    width: 374px;
+    display: grid;
+    gap: 4.5px;
+    grid-template-columns: 160px 99px 76.5px 25px;
+    grid-template-rows: 207px 66px 77.5px 10px;
+  }
+}
